@@ -1,0 +1,6 @@
+C:\Users\Daviator\Desktop\Game\PhaserGame\PhaserGameHtml\obj\Debug\PhaserGameHtml.csprojResolveAssemblyReference.cache
+C:\Users\Daviator\Desktop\Game\PhaserGame\PhaserGameHtml\bin\PhaserGameHtml.dll.config
+C:\Users\Daviator\Desktop\Game\PhaserGame\PhaserGameHtml\bin\PhaserGameHtml.dll
+C:\Users\Daviator\Desktop\Game\PhaserGame\PhaserGameHtml\bin\PhaserGameHtml.pdb
+C:\Users\Daviator\Desktop\Game\PhaserGame\PhaserGameHtml\obj\Debug\PhaserGameHtml.dll
+C:\Users\Daviator\Desktop\Game\PhaserGame\PhaserGameHtml\obj\Debug\PhaserGameHtml.pdb
