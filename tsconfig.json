@@ -1,0 +1,12 @@
+{
+    "compileOnSave": true,
+    "exclude": [
+        "bower_components",
+        "build"
+    ],
+    "compilerOptions": {
+        "outDir": "build/",
+        "target": "es5",
+        "module": "amd"
+    }
+}

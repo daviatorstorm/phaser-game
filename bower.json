@@ -1,0 +1,27 @@
+{
+  "name": "phaser-game",
+  "homepage": "https://github.com/daviatorstorm/phaser-game",
+  "authors": [
+    "Yurij Molchanov <rayan.de.bum@gmail.com>"
+  ],
+  "description": "phaser multiplayer game",
+  "main": "index.html",
+  "keywords": [
+    "phaser",
+    "phaserjs",
+    "game",
+    "multiplayer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "~2.4.7",
+    "requirejs": "^2.2.0"
+  }
+}
