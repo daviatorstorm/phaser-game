@@ -1,0 +1,24 @@
+{
+  "name": "phaser-game",
+  "version": "1.0.0",
+  "description": "phaser game",
+  "main": "build/app.js",
+  "dependencies": {
+    "gulp-webserver": "^0.9.1",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviatorstorm/phaser-game.git"
+  },
+  "author": "Yurij Molchanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviatorstorm/phaser-game/issues"
+  },
+  "homepage": "https://github.com/daviatorstorm/phaser-game#readme"
+}

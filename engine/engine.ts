@@ -4,18 +4,20 @@ namespace Engine {
     */
     export class Game {
         game: Phaser.Game;
-        gameConfig: Phaser.IGameConfig;
+        gameConfig: any;
 
         constructor(mainElement: HTMLElement) {
             this.gameConfig = {
                 width: 800,
                 height: 600,
                 renderer: Phaser.AUTO,
-                parent: mainElement.id
+                parent: mainElement.id,
+                state: {
+                    preload: this.Preload,
+                    create: this.Create
+                }
+                
             };
-            this.gameConfig.state.preload = this.Preload;
-            this.gameConfig.state.create = this.Create;
-
         }
 
         Start() {
@@ -24,12 +26,12 @@ namespace Engine {
 
         Preload() {
             // preload smth
-            this.game.load.image('logo', '/content/logo.png');
+            this.game.load.image('logo', 'content/images/logo.png');
         }
 
         Create() {
             // create smth
-            var logo = this.game.add.sprite(this.game.world.centerX, this.game.world.centerY);
+            var logo = this.game.add.sprite(this.game.world.centerX, this.game.world.centerY, 'logo');
             logo.anchor.setTo(0.5, 0.5);
         }
     }
