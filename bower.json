@@ -24,5 +24,8 @@
   "dependencies": {
     "phaser": "~2.4.7",
     "requirejs": "^2.2.0"
+  },
+  "devDependencies": {
+    "requirejs": "^2.2.0"
   }
 }
