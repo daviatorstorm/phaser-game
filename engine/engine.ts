@@ -30,6 +30,7 @@ namespace Engine {
             // preload smth
             this.game.load.image('logo', Path.To.Images + 'logo.png');
             this.game.state.add('Menu', Engine.States.Menu);
+            this.game.state.add('Game', Engine.States.Game);
         }
 
         Create() {
