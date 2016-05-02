@@ -14,7 +14,7 @@ namespace Engine.Common {
         To: {
             BaseContentPath: 'content/',
             Images: 'content/images/',
-            Players: 'content/images/Players',
+            Players: 'content/images/Players/',
             MenuBtns: 'content/images/Menu Buttons/'
         }
     };
